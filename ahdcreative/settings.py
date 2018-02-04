@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'ahdcreative.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
-DATABASES = {'default': dj_database_url.config(default='')}
+DATABASES = {'default': dj_database_url.config(default='postgres://ptulhtrdefwmew:14b3f3d7878ab10d71a8e46f6fdd211d35f08a8113b4089d9b71e021738b1ecb@ec2-54-217-218-80.eu-west-1.compute.amazonaws.com:5432/d40n396oje62cd')}
 
 AUTH_PASSWORD_VALIDATORS = [
     {
